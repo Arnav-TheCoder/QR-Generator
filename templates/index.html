@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QR Code Generator</title>
+    <style>
+        body {
+            font-family: Arial;
+            max-width: 500px;
+            margin: 40px auto;
+        }
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        button {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Dynamic QR Code Generator</h2>
+    <form method="POST">
+        <input type="text" name="link" placeholder="Enter any URL" required>
+        <button type="submit">Generate QR</button>
+    </form>
+</body>
+</html>
